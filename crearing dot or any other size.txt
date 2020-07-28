@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<style>
+span.dot1 {
+display: inline;       <!--Size can't be changed in this dormet if name of span is not written then spaces code in span must be written i.e if at the place of space code somthing is written then no need to write space code --> 
+  height: 30px;
+  width: 20px;
+  background-color: lightblue;
+  border-radius: 15px;
+  
+}
+
+span.dot2 {
+display: inline-block;  
+  height: 20px;
+  width: 10px;
+  background-color: lightblue;
+  border-radius: 4px;
+  
+}
+span.dot3 {
+display: block;   
+  height: 20px;
+  width: 10px;
+  background-color: lightblue;
+  border-radius: 4px;
+  
+}
+
+
+</style>
+</head>
+<body>
+
+<div style="text-align:center">
+  <h1>Round Dots / Circles</h1>
+  <span class="dot1">&#x3000</span>
+  <span class="dot1">&#x3000</span>
+  <span class="dot1">&#x3000</span>
+  <span class="dot1">&#x3000</span>
+</div>
+
+<div style="text-align:center">
+  <h1>Round Dots / Circles</h1>
+  <span class="dot2"></span>
+  <span class="dot2"></span>
+  <span class="dot2"></span>
+  <span class="dot2"></span>
+</div>
+
+<div style="text-align:center">
+  <h1>Round Dots / Circles</h1>
+  <span class="dot3"></span>
+  <span class="dot3"></span>
+  <span class="dot3"></span>
+  <span class="dot3"></span>
+</div>
+
+</body>
+</html> 
